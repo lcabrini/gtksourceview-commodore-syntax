@@ -4,11 +4,59 @@
   <metadata/>
 
   <styles>
+    <style id="linenumber" _name="Line number" map-to="def:string"/>
+    <style id="comment" _name="Comment" map-to="def:comment"/>
+    <style id="keyword" _name="Keyword" map-to="def:keyword"/>
   </styles>
 
   <definitions>
     <context id="basic2">
       <include>
+        <context id="linenumber" style-ref="linenumber">
+          <match>^\d+</match>
+        </context>
+
+        <context id="comment" style-ref="comment">
+          <start>rem</start>
+          <end>$</end>
+        </context>
+
+        <context id="keywords" style-ref="keyword">
+          <keyword>close</keyword>
+          <keyword>clr</keyword>
+          <keyword>cmd</keyword>
+          <keyword>cont</keyword>
+          <keyword>data</keyword>
+          <keyword>def</keyword>
+          <keyword>dim</keyword>
+          <keyword>end</keyword>
+          <keyword>for</keyword>
+          <keyword>get</keyword>
+          <keyword>get#</keyword>
+          <keyword>gosub</keyword>
+          <keyword>goto</keyword>
+          <keyword>if</keyword>
+          <keyword>input</keyword>
+          <keyword>input#</keyword>
+          <keyword>let</keyword>
+          <keyword>list</keyword>
+          <keyword>load</keyword>
+          <keyword>new</keyword>
+          <keyword>next</keyword>
+          <keyword>open</keyword>
+          <keyword>poke</keyword>
+          <keyword>print</keyword>
+          <keyword>print#</keyword>
+          <keyword>read</keyword>
+          <keyword>restore</keyword>
+          <keyword>return</keyword>
+          <keyword>run</keyword>
+          <keyword>save</keyword>
+          <keyword>stop</keyword>
+          <keyword>sys</keyword>
+          <keyword>verify</keyword>
+          <keyword>wait</keyword>
+        </context>
       </include>
     </context>
   </definitions>
