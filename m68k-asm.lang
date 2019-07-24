@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language id="68k" name="Assembly (m68k)" version="2.0" section="Source">
+  <metadata/>
+
+  <styles>
+  </styles>
+
+  <definitions>
+    <context id="68k">
+      <include>
+      </include>
+    </context>
+  </definitions>
+</language>

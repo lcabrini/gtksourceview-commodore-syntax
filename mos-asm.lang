@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language id="mos" name="Assembly (MOS)" version="2.0" section="Source">
+  <metadata/>
+
+  <styles>
+  </styles>
+
+  <definitions>
+    <context id="mos">
+      <include>
+      </include>
+    </context>
+  </definitions>
+</language>

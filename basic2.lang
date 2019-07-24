@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language id="basic2" name="CBM BASIC 2.0" version="2.0" section="Source">
+  <metadata/>
+
+  <styles>
+  </styles>
+
+  <definitions>
+    <context id="basic2">
+      <include>
+      </include>
+    </context>
+  </definitions>
+</language>
