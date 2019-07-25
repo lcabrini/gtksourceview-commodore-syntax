@@ -4,7 +4,7 @@
   <metadata/>
 
   <styles>
-    <style id="linenumber" _name="Line number" map-to="def:string"/>
+    <style id="linenumber" _name="Line number" map-to="def:comment"/>
     <style id="comment" _name="Comment" map-to="def:comment"/>
     <style id="keyword" _name="Keyword" map-to="def:keyword"/>
   </styles>
