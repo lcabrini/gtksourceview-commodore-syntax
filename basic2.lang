@@ -9,6 +9,8 @@
     <style id="keyword" _name="Keyword" map-to="def:keyword"/>
   </styles>
 
+  <keyword-char-class>([\w#])</keyword-char-class>
+
   <definitions>
     <context id="basic2">
       <include>
