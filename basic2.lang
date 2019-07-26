@@ -7,6 +7,7 @@
     <style id="linenumber" _name="Line number" map-to="def:comment"/>
     <style id="comment" _name="Comment" map-to="def:comment"/>
     <style id="keyword" _name="Keyword" map-to="def:keyword"/>
+    <style id="string" _name="String" map-to="def:string"/>
   </styles>
 
   <keyword-char-class>([\w#])</keyword-char-class>
@@ -21,6 +22,11 @@
         <context id="comment" style-ref="comment">
           <start>rem</start>
           <end>$</end>
+        </context>
+
+        <context id="string" end-at-line-end="true" style-ref="string">
+          <start>"</start>
+          <end>"</end>
         </context>
 
         <context id="keywords" style-ref="keyword">
